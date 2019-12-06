@@ -14,6 +14,12 @@ buildscript {
     }
 }
 
+ext.dagger_version = '2.15'
+ext.okHttp = "3.9.1"
+ext.timber = "4.6.0"
+ext.archComponent = "1.1.1"
+ext.pagingComponent = "1.0.0"
+
 allprojects {
     repositories {
         google()

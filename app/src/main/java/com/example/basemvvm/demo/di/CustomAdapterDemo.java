@@ -1,4 +1,4 @@
-package com.example.basemvvm.view.demo;
+package com.example.basemvvm.demo.di;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -22,7 +22,7 @@ public class CustomAdapterDemo extends RecyclerView.Adapter<CustomAdapterDemo.Cu
     private Context context;
     private CallBack callBack;
 
-    public CustomAdapterDemo(Context context, List<Demo.ProvinceModel>  dataList, CallBack callBack){
+    public CustomAdapterDemo(Context context, List<Demo.ProvinceModel> dataList, CallBack callBack){
         this.dataList=dataList;
         this.context=context;
         this.callBack=callBack;
@@ -30,7 +30,7 @@ public class CustomAdapterDemo extends RecyclerView.Adapter<CustomAdapterDemo.Cu
 
     @Override
     public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        LayoutInflater layoutInflater=LayoutInflater.from(parent.getContext());
+        LayoutInflater layoutInflater= LayoutInflater.from(parent.getContext());
         View view=layoutInflater.inflate(R.layout.row_demo,parent,false);
         return new CustomViewHolder(view);
     }

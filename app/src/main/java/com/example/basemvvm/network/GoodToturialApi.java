@@ -1,6 +1,6 @@
 package com.example.basemvvm.network;
 
-import com.example.basemvvm.view.mvvm_test.Demo;
+import com.example.basemvvm.view.demo.Demo;
 
 import io.reactivex.Observable;
 import retrofit2.Response;
@@ -14,8 +14,8 @@ public interface GoodToturialApi {
     @POST("getInitInfo")
     Observable<Response<Demo>> getState(@Field("ApiKey") String apiKey,
                                         @Field("AppPlatform") String appPlatform,
-                                        @Field("AppVersion") String AppVersion,
-                                        @Field("UsertokenIfExist") String UsertokenIfExist);
+                                        @Field ("AppVersion") String AppVersion,
+                                        @Field ("UsertokenIfExist") String UsertokenIfExist);
 
 //    @FormUrlEncoded
 //    @POST("GetCities")

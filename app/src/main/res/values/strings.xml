@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">BaseMvvm</string>
+    <string name="app_name">baseMvvm</string>
+
+    <string name="error_public">خطایی رخ داده است مجددا تلاش کنید</string>
+
+    <string name="time_out_error">وقفه در سرور</string>
+    <string name="connection_error">عدم دسترسی به شبکه</string>
+    <string name="single_no_item_emitted_error">جوابی دریافت نشد</string>
+    <string name="data_receive_error">خطا در دریافت اطلاعات</string>
+    <string name="server_error">خطا در برقراری ارتباط</string>
 </resources>

@@ -1,7 +1,7 @@
 package com.example.basemvvm.network;
 
 
-import com.example.basemvvm.view.mvvm_test.Demo;
+import com.example.basemvvm.view.demo.Demo;
 
 import javax.inject.Inject;
 

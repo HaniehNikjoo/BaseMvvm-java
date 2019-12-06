@@ -1,4 +1,4 @@
-package com.example.basemvvm.demo.di;
+package com.example.basemvvm.view.demo;
 
 import com.google.gson.annotations.SerializedName;
 

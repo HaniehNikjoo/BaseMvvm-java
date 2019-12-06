@@ -1,10 +1,10 @@
-package com.example.basemvvm.demo.di;
+package com.example.basemvvm.view.demo.di;
 
 import android.arch.lifecycle.ViewModelProviders;
 
-import com.example.basemvvm.view.demo.ActivityDemo;
 import com.example.basemvvm.view.demo.DemoViewModel;
 import com.example.basemvvm.view.demo.DemoViewModelFactory;
+import com.example.basemvvm.view.demo.ActivityDemo;
 
 import dagger.Module;
 import dagger.Provides;

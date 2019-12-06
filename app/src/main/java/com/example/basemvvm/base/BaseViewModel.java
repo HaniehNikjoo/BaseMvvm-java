@@ -4,6 +4,7 @@ package com.example.basemvvm.base;
 import android.arch.lifecycle.ViewModel;
 import android.support.annotation.NonNull;
 
+
 import com.example.basemvvm.network.RestManager;
 import com.example.basemvvm.utils.SchedulersFacade;
 import com.example.basemvvm.utils.SingleLiveData;

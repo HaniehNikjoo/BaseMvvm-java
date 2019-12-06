@@ -1,4 +1,4 @@
-package com.example.basemvvm.demo.di;
+package com.example.basemvvm.view.demo;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.support.annotation.NonNull;

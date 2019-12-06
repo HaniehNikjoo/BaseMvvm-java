@@ -5,5 +5,5 @@ package com.example.basemvvm.utils;
  */
 
 public interface CallBack {
-    void onItemClick(int position, String str);
+    void onItemClick(int position,String str);
 }
